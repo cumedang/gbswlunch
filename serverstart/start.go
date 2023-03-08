@@ -9,7 +9,7 @@ import (
 	"github.com/cumedang/gbswlunch/lunch"
 )
 
-const port string = ":4000"
+const port string = ":8000"
 
 var sanz Sanz
 var a string
