@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/cumedang/go/lunch"
+	"github.com/cumedang/gbswlunch/lunch"
 )
 
 const port string = ":4000"
