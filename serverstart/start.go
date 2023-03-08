@@ -36,5 +36,5 @@ func home(rw http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("lunchsystem-cumedang.koyeb.app/", home)
 	fmt.Printf("Listening on lunchsystem-cumedang.koyeb.app/%s\n", port)
-	log.Fatal(http.ListenAndServe(port, nil))
+	log.Fatal(http.ListenAndServe("lunchsystem-cumedang.koyeb.app/"+port, nil))
 }
