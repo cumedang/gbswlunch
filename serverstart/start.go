@@ -20,7 +20,7 @@ type Sanz struct {
 }
 
 func home(rw http.ResponseWriter, r *http.Request) {
-	tmpl := template.Must(template.ParseFiles("home.gohtml"))
+	tmpl := template.Must(template.ParseFiles("./serverstart/home.gohtml"))
 	switch r.Method {
 
 	case "POST":
