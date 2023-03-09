@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css"> 
     <title>경소고 급식</title>
     <style>
         *{
@@ -13,10 +13,19 @@
             text-align: center;
         }
         button{
-            margin-left: 320px;
+            margin-right: 320px;
         }
         section{
             margin-left: 320px;
+        }
+        p{
+            display: flex;
+            margin-right: 320px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        @media only screen and (max-width:600px){
+            
         }
     </style>
 </head>
@@ -34,7 +43,7 @@
         <button>검색하기</button>
     </form>
     <section>
-            {{.}}
+            <p>{{.}}</p>
         
     </section>
     <footer>&copy; 2023 경소고 급식</footer>
